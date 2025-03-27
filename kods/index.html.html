@@ -1,0 +1,215 @@
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+</style>
+<link rel="stylesheet" href="mansStils.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#word" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tekstapstrāde</a>
+    <a href="#att"  class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Attēlu apstrāde</a>
+    <a href="#3d" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">3d modelēšana</a>
+    <a href="#izk" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Izklājlapas</a>
+    <a href="#vid" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Video montēšana</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#word" class="w3-bar-item w3-button w3-padding-large">Tekstapstrāde</a>
+   <div class="menu">
+    <a href="#att">Attēlu apstrāde</a>
+    <div class="submenu">
+        <a href="#vektorgrafika">Vektorgrafika</a>
+        <a href="#rastrgrafika">Rastrgrafika</a>
+    </div>
+</div>
+    <a href="#3d" class="w3-bar-item w3-button w3-padding-large">3d Modelēšana</a>
+    <a href="#izk" class="w3-bar-item w3-button w3-padding-large">Izklājlapas</a>
+    <a href="#vid" class="w3-bar-item w3-button w3-padding-large">Video montēšana</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Datorikas Portfolio</h1>
+  <p class="w3-xlarge">Daniils Harlamovs</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="window.open('otrais.html','_blank')">Otrais</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="word">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Tekstapstrāde</h1>
+      <h5 class="w3-padding-32">Word ir Microsoft izstrādāta teksta rediģēšanas programma, kas ļauj veidot, formatēt un rediģēt dokumentus</h5>
+
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="images/wordBilde.jpg" alt="Word Bilde" class="w3-image" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="att">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="images/gimpBilde.jpg" alt="GIMP Image" class="w3-image" style="max-width: 100%; height: auto;">
+      <img src="musa22.gif" alt="musa gif" class="w3-image" style="max-width: 100%; height: auto;">
+    </div>
+
+    <div class="w3-twothird">
+        <section id="vektorgrafika"><h1>Attēlu apstrāde</h1></section>
+        <section id="rastrgrafika"><h3>Gimp</h3></section>
+      <h5 class="w3-padding-32">
+        GIMP ir bezmaksas un atvērtā koda attēlu rediģēšanas programma, paredzēta foto apstrādei, zīmēšanai un grafikas veidošanai.
+      </h5>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="images/inkscapeBilde.jpg" alt="Inkscape Image" class="w3-image" style="max-width: 100%; height: auto;">
+    </div>
+
+    <div class="w3-twothird">
+        <section id="vektorgrafika"><h3 class="vektorgrafika">Inkscape</h3> </section>
+       
+      <h5 class="w3-padding-32">
+        Inkscape ir bezmaksas un atvērtā koda vektorgrafikas rediģēšanas programma, izmantojama logotipu, ilustrāciju un citu vektorgrafikas dizainu izveidei.
+      </h5>
+    </div>
+  </div>
+</div>
+
+
+<!-- 3 Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="3d">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>3d Modelēšana</h1>
+        <h5 class="w3-padding-32">Tinkercad</h5>
+  
+        <p class="w3-text-grey">Tinkercad ir tiešsaistes 3D modelēšanas  rīks, ko izmanto iesācēji 3d modelēšanā.</p>
+      </div>
+  
+      <div class="w3-third w3-center">
+        <img src="images/tinkercadBilde.jpg" alt="tinkercad Image" class="w3-image" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- 4 Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="izk">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <img src="images/excelBilde.jpg" alt="excel Image" class="w3-image" style="max-width: 100%; height: auto;">
+      </div>
+  
+      <div class="w3-twothird">
+        <h1>Izklājlapas</h1>
+        <h5 class="w3-padding-32">Excel</h5>
+        <p class="w3-text-grey">Excel ir Microsoft izstrādāta izklājlapu programma datu analīzei, aprēķiniem un diagrammu veidošanai.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--- 5 Grid -->
+
+<div class="w3-row-padding w3-padding-64 w3-container" id="vid">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Video montēšana</h1>
+      <h5 class="w3-padding-32">
+        Clipchamp ir Microsoft piederoša tiešsaistes video rediģēšanas platforma, kas ļauj lietotājiem viegli rediģēt, apgriezt, pievienot efektus un eksportēt videoklipus tieši pārlūkprogrammā.
+      </h5>
+      <iframe width="640" height="360" 
+        src="https://www.youtube.com/embed/HGNw2PdFIo0" 
+        frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="css/MansStils.css"/>
+        <title>smuki bebri</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1>Mans datorikas portfolio</h1></div>
+        <div><h2 class="b">šogad es apguvu excel, word, gimp, inkscape,clipchamp,tinkercad</h2></div>
+        <h3>Gimp</h3>
+        <img class="bilde" src="images/gimpBilde.jpg" id="bilde">
+        <div> labi apguvu</div>
+        <h3>Excel</h3>
+        <img class="bilde" src="images/excelBilde.jpg" id="bilde">
+        <div> vidēji apguvu</div>
+        <h3>Word</h3>
+        <img class="bilde" src="images/wordBilde.jpg" id="bilde">
+        <div> videji apguvu</div>
+        <h3>Inkscape</h3>
+        <img class="bilde" src="images/inkscapeBilde.jpg" id="bilde">
+        <div> videji apguvu</div>
+        <h3>Tinkecad</h3>
+        <img class="bilde" src="images/tinkercadBilde.jpg" id="bilde">
+        <div> labi apguvu</div>
+        <h3>Clipchamp</h3>
+        <img class="bilde" src="images/clipchampBilde.jpg" id="bilde">
+        <div> labi apguvu</div>
+        
+        <div><p>test test test1</p></div>
+        
+        
+    </body>
+</html>
